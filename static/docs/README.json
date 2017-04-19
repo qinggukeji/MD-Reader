@@ -1,0 +1,44 @@
+{
+	"menu": [
+		{
+			"id": 1,
+			"name": "Md Reader",
+			"target": "md-reader",
+			"list": [
+				{
+					"id": "1-1",
+					"name": "convert md to json",
+					"target": "convert-md-to-json"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Build Setup",
+			"target": "build-setup",
+			"list": [
+				{
+					"id": "2-1",
+					"name": "install dependencies",
+					"target": "install-dependencies"
+				},
+				{
+					"id": "2-2",
+					"name": "serve with hot reload at localhost:3380",
+					"target": "serve-with-hot-reload-at-localhost-3380"
+				},
+				{
+					"id": "2-3",
+					"name": "build for production with minification",
+					"target": "build-for-production-with-minification"
+				},
+				{
+					"id": "2-4",
+					"name": "build for production and view the bundle analyzer report",
+					"target": "build-for-production-and-view-the-bundle-analyzer-report"
+				}
+			]
+		}
+	],
+	"data": "<h2 id=\"md-reader\">Md Reader</h2>\n<h3 id=\"convert-md-to-json\">convert md to json</h3>\n<pre><code class=\"bash\" v-highlight>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> json</span>\n</code></pre>\n<h2 id=\"build-setup\">Build Setup</h2>\n<h3 id=\"install-dependencies\">install dependencies</h3>\n<pre><code class=\"bash\" v-highlight>npm <span class=\"hljs-keyword\">install</span>\n</code></pre>\n<h3 id=\"serve-with-hot-reload-at-localhost-3380\">serve with hot reload at localhost:3380</h3>\n<pre><code class=\"bash\" v-highlight>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> dev</span>\n</code></pre>\n<h3 id=\"build-for-production-with-minification\">build for production with minification</h3>\n<pre><code class=\"bash\" v-highlight>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> build</span>\n</code></pre>\n<h3 id=\"build-for-production-and-view-the-bundle-analyzer-report\">build for production and view the bundle analyzer report</h3>\n<pre><code class=\"bash\" v-highlight>npm <span class=\"hljs-built_in\">run</span> build <span class=\"hljs-comment\">--report</span>\n</code></pre>\n<p>For detailed explanation on how things work, checkout the <a href=\"http://vuejs-templates.github.io/webpack/\">guide</a> and <a href=\"http://vuejs.github.io/vue-loader\">docs for vue-loader</a>.</p>\n"
+}
