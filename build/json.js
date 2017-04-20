@@ -32,7 +32,11 @@ var sortNumber = (a,b) => {
 fs.readdir(inputDoc, (err, files) => {
     if(err) throw err;
 
-    files.sort(sortNumber).pop();
+    files.sort(sortNumber);
+
+    if( files.indexOf('.DS_Store') !== -1 ) {
+      files.pop();
+    }
 
     files.forEach( (filename, x) => {
     	if( ! filename.indexOf(prefix) ) {
